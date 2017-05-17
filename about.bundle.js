@@ -2,7 +2,7 @@
 	debugger;
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/router')) :
 	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', '@angular/router'], factory) :
-	(factory((global.about = global.about || {}),global._angular_core,global._angular_common,global._angular_router));
+	(factory((global.about = global.about || {}),global.ng.core,global.ng.common,global.ng.router));
 }(this, (function (exports,_angular_core,_angular_common,_angular_router) { 'use strict';
 debugger;
 var __decorate$2 = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
